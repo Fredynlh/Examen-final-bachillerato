@@ -1,0 +1,306 @@
+body {
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 100; /* Corregido de '1 te00' a '100' */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.index {
+    flex: 1;
+    background-image: url(pedro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+/* Estilos para el nav */
+.nav-contenedor {
+    background-image: url(paisaje.jpg);
+    height: 100px;
+    width: 100%;
+}
+
+.nav-contenedor_ul {
+    padding-bottom: 100px;
+    padding-left: 100px;
+    display: flex;
+    list-style-type: none;
+    margin-left: 90px;
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.nav-contenedor_li {
+    margin: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para los títulos del index */
+.titulo {
+    margin: 20px;
+    text-align: center;
+}
+
+.h1-titulo {
+    font-style: italic;
+    text-align: center;
+    color: #fff;
+}
+
+.h2-index {
+    font-size: 19px;
+    text-align: center;
+    color: #fff;
+}
+
+.h3-parrafo {
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+.ul-index {
+    text-align: center;
+    display: block;
+}
+
+.index-li {
+    color: #fff;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.ul-index li {
+    margin-top: 20px;
+    padding-top: 10px;
+    color: #fff; /* Color agregado para completar el estilo */
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Estilos para el footer */
+footer {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+}
+
+/* Estilos para el portafolio de tejido conectivo */
+header {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Estilo específico para biología y tejido conectivo */
+.biologia, .tecido-conectivo {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.biologia ul, .tecido-conectivo ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Estilo específico para inglés */
+.h1-titulo_ingles {
+    text-align: center;
+    color: purple;
+}
+
+/* Estilos específicos para ética */
+.contenido {
+    margin: 20px;
+    padding: 20px;
+}
+
+.h1-etica, .h2-etica {
+    color: purple;
+    text-align: center;
+}
+.ul-h2 {
+    font-size: 20px;
+    line-height: 1.6;
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.introduccion, .investigacion, .importancia, .efectos, .datos-curiosos, .naturaleza {
+    margin-bottom: 20px;
+}
+
+.introduccion p, .investigacion p, .importancia p, .efectos p, .datos-curiosos ul,.naturaleza p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.datos-curiosos ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.juego iframe {
+    width: 700px;
+    height: 600px;
+    margin-left: 300px;
+}
+
+
+/* Estilos generales para la página de inglés */
+.main-content {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.personal-introduction, .autobiography, .personal-anecdote, .gratitude {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.h1-titulo_ingles {
+    text-align: center;
+    color: #4A00E0; /* Color lila para el título */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.h3-introduction {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.h4-anecdote, .h4-gratitude {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+}
+
+.personal-introduction p, .autobiography p, .personal-anecdote p, .gratitude p {
+    margin-bottom: 10px;
+}
+/* Estilos para la sección de química */
+.quimica {
+    padding: 20px;
+    margin: 0 auto;
+    width: 1000px; /* Ancho máximo del contenedor */
+    background-color: #f4f4f9; /* Color de fondo sutil */
+    color: #333; /* Color del texto */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    text-align: center;
+}
+
+.quimica h1 {
+    font-size: 2.5rem; /* Tamaño de fuente grande */
+    color: #4CAF50; /* Color verde para el título */
+    margin-bottom: 20px;
+}
+
+.quimica iframe {
+    width: 100%; /* Asegura que el iframe ocupe el 100% del ancho del contenedor */
+    height: 80vh; /* Alto del iframe en relación a la ventana */
+    border: none;
+    border-radius: 8px; /* Bordes redondeados para el iframe */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil alrededor del iframe */
+}
+/* Estilos para la sección de desastres naturales */
+.desastres-naturales {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    background-color: #e0f2f1; /* Fondo verde claro */
+    color: #333; /* Color del texto */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.desastres-naturales h2 {
+    font-size: 2.5rem; /* Tamaño de fuente grande */
+    color: #00796b; /* Color verde más oscuro para los títulos */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.desastres-naturales h3 {
+    font-size: 1.8rem; /* Tamaño de fuente para subtítulos */
+    color: #004d40; /* Color verde más oscuro para los subtítulos */
+    margin-top: 20px;
+    border-bottom: 2px solid #004d40; /* Línea debajo del subtítulo */
+    padding-bottom: 5px;
+}
+
+.desastres-naturales p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.desastres-naturales ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.desastres-naturales li {
+    margin-bottom: 10px;
+}
+
+/* Estilos específicos para enlaces en la sección de desastres naturales */
+.desastres-naturales a {
+    color: #00796b; /* Color verde oscuro para enlaces */
+    text-decoration: none;
+}
+
+.desastres-naturales a:hover {
+    text-decoration: underline;
+}
+
+  /* Estilos para la sección de desastres naturales */
+.desastres-naturales {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    background-color: #e8f5e9; /* Fondo verde claro */
+    color: #333; /* Color del texto */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)}
+
+
+
+
+.revista-quimica iframe {
+    width: 100%; /* Asegura que el iframe ocupe el 100% del ancho del contenedor */
+    height: 80vh; /* Alto del iframe en relación a la ventana */
+    border: none;
+    border-radius: 8px; /* Bordes redondeados para el iframe */
