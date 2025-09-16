@@ -19,24 +19,35 @@ body {
 /* Estilos para el nav */
 .nav-contenedor {
     background-image: url(paisaje.jpg);
-    height: 100px;
+    height: 10vh;
     width: 100%;
-}
+    display: flex ;
+    align-items: center;
+    justify-content: center;
 
+
+}
+.icono_menu{
+    
+     display: none;}
 .nav-contenedor_ul {
-    padding-bottom: 100px;
-    padding-left: 100px;
-    display: flex;
-    list-style-type: none;
-    margin-left: 90px;
-    font-size: 18px;
-    padding-top: 30px;
+    
+    display: flex;              /* Flex para alinear los elementos */
+    flex-direction: row;        /* Fila horizontal */
+    justify-content: center;    /* Centra los enlaces horizontalmente */
+    align-items: center;        /* Centra verticalmente dentro del nav */
+    list-style: none;           /* Quita los puntos */
+    padding: 0;                 /* Sin padding extra */
+    margin: 0;
+    font-size: 20px;
+  
 }
-
 .nav-contenedor_li {
-    margin: 20px;
+    
+    margin: 10px;
     color: #fff;
     text-decoration: none;
+    list-style: none;
 }
 
 /* Estilos para los títulos del index */
@@ -304,3 +315,55 @@ p {
     height: 80vh; /* Alto del iframe en relación a la ventana */
     border: none;
     border-radius: 8px; /* Bordes redondeados para el iframe */
+}
+
+
+
+@media (max-width: 768px){
+    
+
+
+    
+.nav-contenedor_ul{
+    width: 100%;
+    height: auto;
+    position: fixed;
+display: none;  
+
+align-items: center;
+background-image: url(paisaje.jpg);
+flex-direction: column; 
+align-items: center;
+justify-content: center;
+z-index: 1000;
+top: 10%;         /* importante para que empiece desde arriba */
+    left: 0; 
+
+
+
+
+}
+ .nav-contenedor_ul li {s
+     margin-top: 20px;
+    padding-top: 30px;
+    color: #fff; /* Color agregado para completar el estilo */
+    font-size: 20px;
+    text-decoration: none;
+ 
+        align-items: center;
+        margin: 20px 0;          /* Espaciado entre enlaces */
+        font-size: 24px;}
+.icono_menu {
+    display: block; 
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.icono_menu img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+}
