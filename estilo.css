@@ -9,7 +9,7 @@ body {
 
 .index {
     flex: 1;
-    background-image: url(pedro.jpg);
+    background-image: url(Pedro.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -364,6 +364,7 @@ top: 10%;         /* importante para que empiece desde arriba */
     height: 100%;
     
 }
+
 
 
 }
